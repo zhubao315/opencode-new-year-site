@@ -1,0 +1,11 @@
+body {background:#ff4d4d;color:#fff;font-family:"Microsoft YaHei",sans-serif;margin:0;padding:0;display:flex;justify-content:center;align-items:center;height:100vh;}
+.wrapper {text-align:center;}
+h1 {font-size:3em;margin-bottom:0.2em;}
+.subtitle {font-size:1.5em;margin-bottom:1em;}
+.scene {position:relative;height:200px;}
+.lantern {width:120px;animation:float 3s ease-in-out infinite;}
+.gold {width:150px;position:absolute;top:50px;left:50%;transform:translateX(-50%);}
+@keyframes float {0%,100%{transform:translateY(0);}50%{transform:translateY(-20px);}}
+#fortuneBtn {background:#ffd700;color:#000;border:none;padding:12px 24px;font-size:1.2em;cursor:pointer;border-radius:6px;margin-top:20px;}
+#fortuneText {margin-top:20px;font-size:1.4em;}
+.hidden {display:none;}
